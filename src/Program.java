@@ -3,7 +3,7 @@ public class Program {
     public static void main(String[] args) {
 
         Plate luminarc = new Plate(22, "Blue", true, "France");
-        Plate ikeahome = new Plate (16, "grey", true, "Poland");
+        Plate ikeahome = new Plate (16, "grey", false, "Poland");
         Spoon stolenspoon = new Spoon("stolen", 1892, true);
         Spoon crocks = new Spoon("presented", 1980, false);
         Plate artemium = new CeramicPlate(25, "green", false, "Russia");
@@ -36,13 +36,23 @@ public class Program {
             goose.toWash();
             artemium.toWash();
             crocks.toAsk();
-        
+
+
+            System.out.println(luminarc.getCountry(3));
+
+            System.out.println(ikeahome.getDp());
+
+
+            ikeahome.setCountry("France");
+
+        System.out.println(ikeahome.getDp());
 
 
 
 
 
-        }
+
+    }
 
 
 

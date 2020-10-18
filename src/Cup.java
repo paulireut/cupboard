@@ -8,6 +8,47 @@ public class Cup extends Crockery {
 
     protected String text;
 
+    public String getColor() {
+
+        return color;
+
+    }
+
+    public void setColor(String color) {
+
+        this.color = color;
+    }
+
+    public int getVolume() {
+
+        return volume;
+    }
+
+    public void setVolume(int volume) {
+
+        this.volume = volume;
+    }
+
+    public boolean hasHandle() {
+
+        return hasHandle;
+    }
+
+    public void setHasHandle(boolean hasHandle) {
+
+        this.hasHandle = hasHandle;
+    }
+
+    public String getText() {
+
+        return text;
+    }
+
+    public void setText(String text) {
+
+        this.text = text;
+    }
+
 
     public Cup(String color, int volume, boolean hasHandle, String text) {
 
